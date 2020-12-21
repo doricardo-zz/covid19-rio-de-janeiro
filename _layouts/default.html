@@ -10,17 +10,44 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <style>
     .dataframe {
-        margin: 20px 0;
-        font-size: 12px;
-        font-family: "Open Sans", verdana, arial, sans-serif;
-        min-width: 400px;
-        padding: 10px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .dataframe thead tr {
+        background-color: #009879;
+        color: #ffffff;
         text-align: left;
     }
-    th, td {
-      border-bottom: 1px solid #ddd;
+
+    .dataframe th,
+    .dataframe td {
+        padding: 12px 15px;
+    } 
+
+    .dataframe tbody tr {
+        border-bottom: 1px solid #dddddd;
     }
-    </style>
+
+    .dataframe tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    .dataframe tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+    }
+
+    .dataframe tbody tr.active-row {
+        font-weight: bold;
+        color: #009879;
+    }
+
+
+  </style>
   </head>
   <body>
     <section class="page-header">
